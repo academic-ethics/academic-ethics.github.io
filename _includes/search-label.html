@@ -1,0 +1,13 @@
+<script>
+// Quarto の検索ボタンは読み上げ名が英語の "Search" になるため、日本語に置き換える
+(function () {
+  function relabel() {
+    document.querySelectorAll(".aa-DetachedSearchButton").forEach(function (b) {
+      b.setAttribute("aria-label", "サイト内を検索");
+      b.setAttribute("title", "サイト内を検索");
+    });
+  }
+  new MutationObserver(relabel).observe(document.documentElement, { childList: true, subtree: true });
+  document.addEventListener("DOMContentLoaded", relabel);
+})();
+</script>

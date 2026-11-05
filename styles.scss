@@ -35,3 +35,20 @@ input:focus-visible,
 main p {
   max-width: 40em;
 }
+// 各回の概要（定義リスト）
+main dl dt {
+  font-weight: 700;
+}
+main dl dd {
+  margin: 0 0 0.75rem 0;
+}
+// 一覧の各回の題をリンクとして見分けられるようにし、日付を小さくしすぎない
+.quarto-listing .quarto-post .listing-title a,
+.quarto-listing .quarto-post h3 a {
+  color: $link-color;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.quarto-listing .quarto-post .listing-date {
+  font-size: 1rem;
+}

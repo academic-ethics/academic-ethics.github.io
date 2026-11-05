@@ -12,11 +12,14 @@ draft: true
 
 ## 概要
 
-| 項目 | 内容 |
-|---|---|
-| 日時 | {{< meta date >}} {{< meta time >}} |
-| 会場 | {{< meta place >}} |
-| 参加申込 | {{< meta registration >}} |
+日時
+: {{< meta date >}} {{< meta time >}}
+
+会場
+: {{< meta place >}}
+
+参加申込
+: {{< meta registration >}}
 
 ## 報告
 

@@ -5,6 +5,8 @@ project:
 lang: ja
 language:
   title-block-published: "開催日"
+  search-label: "検索"
+  search-text-placeholder: "サイト内を検索"
 
 website:
   # TODO: 研究会の正式名称（日本語名）が決まったら title と description を差し替える
@@ -33,5 +35,8 @@ format:
     theme:
       - cosmo
       - styles.scss
-    toc: true
-    toc-title: "目次"
+    # 各ページは短いので目次は付けない（目次の見出しが本文の見出しより前に来るのも避ける）
+    toc: false
+    # 見出し横の小さなリンク記号は付けない（英語の読み上げ名と小さい操作対象を避ける）
+    anchor-sections: false
+    include-after-body: _includes/search-label.html

@@ -9,14 +9,10 @@ listing:
     status: "予定"
   sort: "date"
   max-items: 3
-  type: table
-  fields: [date, title, place]
-  field-display-names:
-    date: "日付"
-    title: "テーマ"
-    place: "会場"
+  # 表は狭い画面で横にはみ出すため、縦に並ぶ一覧を使う
+  type: default
+  fields: [date, title, description]
   date-format: "YYYY年M月D日"
-  categories: false
   sort-ui: false
   filter-ui: false
 ---
