@@ -8,12 +8,10 @@ listing:
   sort: "date desc"
   # 表は狭い画面で横にはみ出すため、縦に並ぶ一覧を使う
   type: default
-  fields: [date, title, description]
+  fields: [date, title]
   date-format: "YYYY年M月D日"
   sort-ui: false
   filter-ui: false
 ---
 
-これまでに開催した研究会の記録です。
-
-## 一覧
+## 一覧 {.visually-hidden}

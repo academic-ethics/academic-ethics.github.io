@@ -2,22 +2,20 @@
 # 使い方: このファイルを events/YYYY-MM-DD-短い名前.qmd に複製して書き換える
 # 例: events/2027-01-20-research-integrity.qmd
 title: "（テーマ）"
-subtitle: "（報告者名または副題。不要なら行ごと削除）"
 date: 2027-01-20
 # 予定 または 終了。開催後に「終了」へ変えると開催記録へ移る
 status: "予定"
 place: "（会場。オンラインなら「オンライン（Zoom）」など）"
 time: "15:00〜17:00"
 registration: "（申込フォームのURL。不要なら空欄）"
-description: "（一覧に出る1文の要約）"
 # 公開前の下書きなら true。true の間は公開サイトに出ない
 draft: false
 ---
 
 ## 概要
 
-日時
-: {{< meta date >}} {{< meta time >}}
+時間
+: {{< meta time >}}
 
 会場
 : {{< meta place >}}

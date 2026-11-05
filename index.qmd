@@ -1,6 +1,5 @@
 ---
 title: "Academic Ethics"
-subtitle: "研究会のウェブサイト"
 toc: false
 listing:
   id: upcoming
@@ -11,7 +10,7 @@ listing:
   max-items: 3
   # 表は狭い画面で横にはみ出すため、縦に並ぶ一覧を使う
   type: default
-  fields: [date, title, description]
+  fields: [date, title]
   date-format: "YYYY年M月D日"
   sort-ui: false
   filter-ui: false
@@ -24,11 +23,3 @@ Academic Ethics は、学術活動にかかわる倫理を検討する研究会�
 
 ::: {#upcoming}
 :::
-
-予定は決まり次第ここに掲載します。
-
-[開催案内の一覧](events.qmd) ／ [これまでの開催記録](archive.qmd)
-
-## 参加について
-
-参加方法は各回の案内を参照してください。<!-- TODO: 参加資格、申込方法、問い合わせ先 -->
