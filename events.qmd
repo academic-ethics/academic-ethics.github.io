@@ -1,0 +1,17 @@
+---
+title: "開催案内"
+toc: false
+listing:
+  contents: events
+  include:
+    status: "予定"
+  sort: "date"
+  type: default
+  fields: [date, title, subtitle, place, description]
+  date-format: "YYYY年M月D日"
+  categories: false
+  sort-ui: false
+  filter-ui: false
+---
+
+今後の研究会の予定です。終了した回は[開催記録](archive.qmd)に移ります。

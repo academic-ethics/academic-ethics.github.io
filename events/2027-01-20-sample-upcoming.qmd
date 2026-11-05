@@ -1,0 +1,23 @@
+---
+title: "（サンプル）次回研究会のテーマ"
+subtitle: "表示確認用の下書き。公開サイトには出ない"
+date: 2027-01-20
+status: "予定"
+place: "オンライン（Zoom）"
+time: "15:00〜17:00"
+registration: "（申込フォームのURL）"
+description: "開催案内の表示を確認するためのサンプル。"
+draft: true
+---
+
+## 概要
+
+| 項目 | 内容 |
+|---|---|
+| 日時 | {{< meta date >}} {{< meta time >}} |
+| 会場 | {{< meta place >}} |
+| 参加申込 | {{< meta registration >}} |
+
+## 報告
+
+（報告題目と要旨）

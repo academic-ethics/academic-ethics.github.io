@@ -1,0 +1,11 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
+$line-height-base: 1.8;
+
+/*-- scss:rules --*/
+body {
+  font-feature-settings: "palt" 0;
+}
+.event-meta dt {
+  font-weight: 600;
+}

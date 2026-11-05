@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: _site
+
+lang: ja
+
+website:
+  # TODO: 研究会の正式名称（日本語名）が決まったら title と description を差し替える
+  title: "Academic Ethics"
+  description: "Academic Ethics 研究会のウェブサイト（説明文は仮）"
+  site-url: "https://academic-ethics.github.io"
+  # 下書き（draft: true）のページは公開サイトから除外する。プレビューでは表示される
+  draft-mode: gone
+  navbar:
+    search: true
+    left:
+      - text: "ホーム"
+        href: index.qmd
+      - text: "開催案内"
+        href: events.qmd
+      - text: "開催記録"
+        href: archive.qmd
+      - text: "研究会について"
+        href: about.qmd
+  page-footer:
+    left: "© Academic Ethics"
+    right: "Built with [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: true
+    toc-title: "目次"

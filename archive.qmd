@@ -1,0 +1,21 @@
+---
+title: "開催記録"
+toc: false
+listing:
+  contents: events
+  include:
+    status: "終了"
+  sort: "date desc"
+  type: table
+  fields: [date, title, place]
+  field-display-names:
+    date: "日付"
+    title: "テーマ"
+    place: "会場"
+  date-format: "YYYY年M月D日"
+  categories: false
+  sort-ui: false
+  filter-ui: true
+---
+
+これまでに開催した研究会の記録です。
