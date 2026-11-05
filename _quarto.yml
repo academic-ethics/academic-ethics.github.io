@@ -3,13 +3,15 @@ project:
   output-dir: _site
 
 lang: ja
+language:
+  title-block-published: "開催日"
 
 website:
   # TODO: 研究会の正式名称（日本語名）が決まったら title と description を差し替える
   title: "Academic Ethics"
   description: "Academic Ethics 研究会のウェブサイト（説明文は仮）"
   site-url: "https://academic-ethics.github.io"
-  # 下書き（draft: true）のページは公開サイトから除外する。プレビューでは表示される
+  # 下書き（draft: true）のページは公開サイトから除外する。quarto preview --profile drafts では表示される
   draft-mode: gone
   navbar:
     search: true

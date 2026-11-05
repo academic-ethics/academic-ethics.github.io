@@ -27,12 +27,18 @@ Quarto で生成し、GitHub Pages で公開する研究会サイトのソース
 
 開催後は、その回の `status` を `"終了"` に変え、必要なら「記録」の節を書く。開催案内から開催記録へ自動で移る。
 
-公開前の下書きは `draft: true` にする。プレビューには出るが、公開サイトには出ない。
+公開前の下書きは `draft: true` にする。`--profile drafts` のプレビューには出るが、公開サイトには出ない。
 
 ## 手元で確認する
 
 ```bash
 quarto preview
+```
+
+下書き（`draft: true`）も表示して確認するときは次を使う。
+
+```bash
+quarto preview --profile drafts
 ```
 
 ## 載せないもの

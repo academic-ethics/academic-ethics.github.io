@@ -1,0 +1,4 @@
+# 下書き（draft: true）も表示して確認するための設定。
+# 使い方: quarto preview --profile drafts
+website:
+  draft-mode: visible
