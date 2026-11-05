@@ -1,11 +1,37 @@
+// 見た目の調整は最小限にする。色はすべて白地で文字のコントラスト4.5:1以上になる組み合わせ
 /*-- scss:defaults --*/
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
+$font-size-base: 1rem;      // 16px
 $line-height-base: 1.8;
+$body-color: #1f2328;
+$primary: #1d4ed8;          // リンクとボタンの色
+$link-color: #1d4ed8;
+$navbar-bg: #ffffff;
+$navbar-fg: #1f2328;
+$navbar-hl: #1d4ed8;
+$footer-bg: #ffffff;
+$footer-fg: #4b5563;
 
 /*-- scss:rules --*/
-body {
-  font-feature-settings: "palt" 0;
+// リンクは色だけでなく下線でも区別する
+main a,
+.nav-footer a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
-.event-meta dt {
-  font-weight: 600;
+// キーボード操作の位置をはっきり示す
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+.nav-link:focus-visible {
+  outline: 3px solid #1f2328;
+  outline-offset: 2px;
+  box-shadow: none;
+}
+.navbar {
+  border-bottom: 1px solid #d0d7de;
+}
+// 本文の行長を読みやすい幅に抑える
+main p {
+  max-width: 40em;
 }
