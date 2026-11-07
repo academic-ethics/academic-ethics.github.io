@@ -2,22 +2,42 @@
 title: "Academic Ethics"
 toc: false
 listing:
-  id: upcoming
-  contents: events
-  include:
-    status: "予定"
-  sort: "date"
-  max-items: 3
-  # 表は狭い画面で横にはみ出すため、縦に並ぶ一覧を使う
-  type: default
-  fields: [date, title]
-  date-format: "YYYY年M月D日"
-  sort-ui: false
-  filter-ui: false
+  - id: upcoming
+    contents: events
+    include:
+      status: "予定"
+    sort: "date"
+    max-items: 3
+    type: default
+    fields: [date, title]
+    date-format: "YYYY年M月D日"
+    sort-ui: false
+    filter-ui: false
+  - id: past
+    contents: events
+    include:
+      status: "終了"
+    sort: "date desc"
+    max-items: 3
+    type: default
+    fields: [date, title]
+    date-format: "YYYY年M月D日"
+    sort-ui: false
+    filter-ui: false
 ---
 
-<!-- TODO: 研究会の趣旨を2〜3文で書く -->
-## 次回以降の研究会
+Academic Ethicsは、学会・研究会の運営や研究者・学生間のコミュニケーションなど、アカデミアのさまざまな実践を倫理学の観点から考える研究会です。
+
+## 今後の研究会
 
 ::: {#upcoming}
 :::
+
+[今後の開催案内をすべて見る](events.qmd)
+
+## 過去の研究会
+
+::: {#past}
+:::
+
+[過去の開催記録をすべて見る](archive.qmd)
