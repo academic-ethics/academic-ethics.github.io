@@ -43,6 +43,9 @@ main dl dd {
   margin: 0 0 0.75rem 0;
 }
 // 一覧の各回の題をリンクとして見分けられるようにし、日付を小さくしすぎない
+.quarto-listing .quarto-post .listing-title {
+  font-size: 1rem;
+}
 .quarto-listing .quarto-post .listing-title a,
 .quarto-listing .quarto-post h3 a {
   color: $link-color;

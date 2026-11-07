@@ -1,4 +1,4 @@
-# Academic Ethics ウェブサイト
+# アカデミアの倫理研究会 ウェブサイト
 
 Quarto で生成し、GitHub Pages で公開する研究会サイトのソース。
 

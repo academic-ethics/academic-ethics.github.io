@@ -10,9 +10,8 @@ language:
   listing-page-no-matches: "予定はありません"
 
 website:
-  # TODO: 研究会の正式名称（日本語名）が決まったら title と description を差し替える
-  title: "Academic Ethics"
-  description: "Academic Ethics 研究会のウェブサイト（説明文は仮）"
+  title: "アカデミアの倫理研究会"
+  description: "学会・研究会の運営や研究者・学生間のコミュニケーションなど、アカデミアのさまざまな実践を倫理学の観点から考える研究会です。"
   site-url: "https://academic-ethics.github.io"
   # 下書き（draft: true）のページは公開サイトから除外する。quarto preview --profile drafts では表示される
   draft-mode: gone
@@ -28,7 +27,7 @@ website:
       - text: "研究会について"
         href: about.qmd
   page-footer:
-    left: "© Academic Ethics"
+    left: "© アカデミアの倫理研究会"
 
 format:
   html:
