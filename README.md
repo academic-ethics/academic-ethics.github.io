@@ -10,7 +10,7 @@ Quarto で生成し、GitHub Pages で公開する研究会サイトのソース
 | file | 内容 |
 |---|---|
 | `_quarto.yml` | サイト名、ナビゲーション、テーマ |
-| `index.qmd` | ホーム。開催予定の回を最大3件表示 |
+| `index.qmd` | ホーム。紹介文と、今後・過去の研究会をそれぞれ最大3件表示 |
 | `events.qmd` | 開催案内（`status: "予定"` の回の一覧） |
 | `archive.qmd` | 開催記録（`status: "終了"` の回の一覧） |
 | `about.qmd` | 趣旨、運営、問い合わせ |
